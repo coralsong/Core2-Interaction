@@ -1,33 +1,38 @@
-body {
-  font-family: Arial, sans-serif;
-  background: #000000;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 175vh;
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
 }
 
-.search-container {
-  width: 400px;
+canvas {
+  display: block;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+ul li {
+  float: left;
+}
+
+ul li a {
+  display: block;
+  color: white;
   text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
-input {
-  width: 100%;
-  padding: 14px 18px;
-  font-size: 16px;
-  border-radius: 24px;
-  border: 1px solid #000000;
-  outline: none;
+ul li a:hover {
+  background-color: #111111;
 }
 
-input:focus {
-  border-color: #4285f4;
-}
-
-#output {
-  margin-bottom: 16px;
-  font-size: 18px;
-  color: #333;
-  min-height: 24px; /* prevents layout jumping */
+h1 {
+    font-size: 0.833em;
+    padding: 2px 16px;
 }
