@@ -1,16 +1,4 @@
-const input = document.getElementById("searchInput");
-const output = document.getElementById("output");
-
-input.addEventListener("input", () => {
-  output.textContent = input.value;
-});
-
-
-const text = "The line is made up of an infinite number of points;";
-let i = 0;
-
-function typeText() {
-  if (i < text.length) {aconst messages = [
+const messages = [
   "The line is made up of an infinite number of points;",
   "the plane is made up of an infinite number of lines;",
   "the hypervolume of an infinite number of volumes.... ",
@@ -72,13 +60,4 @@ inputEl.addEventListener("keydown", (e) => {
 });
 
 
-
-
-    document.getElementById("type").textContent += text[i];
-    i++;
-    setTimeout(typeText, 80);
-  }
-}
-
-typeText();
 
