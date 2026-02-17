@@ -69,7 +69,6 @@ let words = [
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
-  textFont("Courier"); // or any system font
 
 
   angleMode(DEGREES);

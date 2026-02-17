@@ -51,10 +51,11 @@ input:focus {
   top: 3%;
   right: 3%;
   color: white;
+  text-decoration-line: none;
   font-size: 10px;
   padding: 10px 20px;
-  border-radius: 24px;
   cursor: pointer;
+  z-index: 100;
 }
 
 .search-container {
@@ -64,4 +65,9 @@ input:focus {
   transform: translateX(-50%);
   width: min(90vw, 320px);
   z-index: 100; /* higher than everything */
+}
+
+a {
+  text-decoration-line: none;
+  color: white;
 }
